@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
 	def home
-		@name = "Ellie"
+		@name = "Evelyn"
 	end
 	def about
 	end
