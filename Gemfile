@@ -20,7 +20,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # Bootstrap-Sass
 gem 'bootstrap-sass'
-gem 'devise', '~> 3.3.0'
+gem 'devise', '~> 3.4.1'
 
 group :development, :test do
 # Use sqlite3 as the database for Active Record
@@ -30,6 +30,7 @@ end
 group :production do
 	gem 'pg'
 	gem 'rails_12factor'
+	#12factor fills in some 12factor features that rails is missing, such as logging. Heroku tries to follow the 12 factors. 12factor.net
 end
 
 # bundle exec rake doc:rails generates the API under doc/api.
